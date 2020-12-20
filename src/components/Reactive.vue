@@ -1,6 +1,7 @@
 <template>
     <div>
-        <p>Spaces Left: {{ event.spacesLeft }} out of {{ event.capacity }}</p>
+        <p>event capacity: out of {{ capacity }}</p>
+        <p>Spaces Left: {{ spacesLeft }}</p>
         <p>Attending</p>
         <!-- <ul>
             <li v-for="(name, index) in event.attending" :key="index">
@@ -22,6 +23,7 @@ export default {
 
     // return { event }
     // return toRefs(event);
+    console.log('event', event)
     return { ...toRefs(event) }
   }
 }

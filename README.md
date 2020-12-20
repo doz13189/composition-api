@@ -11,4 +11,11 @@
 ## The Reactive Syntax
 > there is an additional way to wrap these primitives in an object. Specifically using the reactive syntax.
 
+## Lifiycle
+> This is because beforeCreate() is called right before setup() and created() is called right after setup()
+
+- onRenderTracked - called when a reactive dependency is first being accessed in the render function, during render. This dependency will now be tracked. This is helpful to see which dependencies are being tracked, for debugging.
+
+- onRenderTriggered - Called when a new render is triggered, allowing you to inspect what dependency triggered a component to re-render.
+
 
