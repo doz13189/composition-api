@@ -1,25 +1,11 @@
 # composition-api
 
-## Project setup
-```
-npm install
-```
+> It’s also worth mentioning that the setup method does not have access “this”,
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+> setup has two optional arguments. The first is props which is reactive and can be watched, as such:
 
-### Compiles and minifies for production
-```
-npm run build
-```
+> The second argument is context, that has access to a bunch of useful data:
 
-### Lints and fixes files
-```
-npm run lint
-```
+> It turns out that when Vue finds a ref in a template it automatically exposes the inner value, so you should never need to call .value inside the template.
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
-# composition-api
+
