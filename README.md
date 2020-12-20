@@ -8,4 +8,7 @@
 
 > It turns out that when Vue finds a ref in a template it automatically exposes the inner value, so you should never need to call .value inside the template.
 
+## The Reactive Syntax
+> there is an additional way to wrap these primitives in an object. Specifically using the reactive syntax.
+
 
