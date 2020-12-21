@@ -1,10 +1,10 @@
 <template>
-  <h1>First Gooogle</h1>
+  <h1>First</h1>
   <input v-model="searchInput">
   <p>search word : {{ searchInput }}</p>
-  <p>{{ getEvents.result.value }}</p>
-  <p>{{ getEvents.loading.value }}</p>
-  <p>{{ getEvents.error.value }}</p>
+  <p>search word length : {{ getEvents.result.value }}</p>
+  <p>loading : {{ getEvents.loading.value }}</p>
+  <p>error : {{ getEvents.error.value }}</p>
 </template>
 
 <script>

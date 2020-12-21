@@ -1,10 +1,10 @@
 <template>
-  <h1>Second Yahooo</h1>
+  <h1>Second</h1>
   <input v-model="searchInput">
   <p>search word : {{ searchInput }}</p>
-  <p>{{ getEvents.result.value }}</p>
-  <p>{{ getEvents.loading.value }}</p>
-  <p>{{ getEvents.error.value }}</p>
+  <p>search word length + 4 : {{ getEvents.result.value }}</p>
+  <p>loading : {{ getEvents.loading.value }}</p>
+  <p>error : {{ getEvents.error.value }}</p>
 </template>
 
 <script>
