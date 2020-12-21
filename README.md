@@ -3,9 +3,9 @@
 ## Vue 2 の問題点
 - As your components get larger readability gets difficult.  
 コード量が増えると読みづらい
-- The current code reuse patterns all come with drawbacks.
+- The current code reuse patterns all come with drawbacks.  
 コード再利用する方法は何個かあるけど...
-- Vue 2 has limited TypeScript support out of the box.
+- Vue 2 has limited TypeScript support out of the box.  
 Vue 2 の TypeSciript のサポートは思ってるのとは違う
 
 ## sample code (composition api)
