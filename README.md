@@ -57,8 +57,8 @@ export default {
 
 
 ## ピックアップ
-https://www.vuemastery.com/courses/vue-3-essentials/why-the-composition-api
-https://composition-api.vuejs.org/#basic-example
+- https://www.vuemastery.com/courses/vue-3-essentials/why-the-composition-api
+- https://composition-api.vuejs.org/#basic-example
 
 > It’s also worth mentioning that the setup method does not have access “this”,
 
