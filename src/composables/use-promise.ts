@@ -1,11 +1,11 @@
 import { ref } from 'vue'
 
-export default function usePromise(fn) {
+export default function usePromise(fn: any): any {
     const result = ref(null)
     const loading = ref(false)
     const error = ref(null)
     
-    const createPromise = async (...args) => {
+    const createPromise = async (...args: number[]): Promise<void> => {
         result.value = null
         loading.value = true
         error.value = null

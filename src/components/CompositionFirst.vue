@@ -8,10 +8,11 @@
 </template>
 
 <script>
+import { defineComponent } from 'vue'
 import { watch, ref } from 'vue'
-import usePromise from '@/composables/use-promise.js'
+import usePromise from '@/composables/use-promise.ts'
 
-export default {
+export default defineComponent({
   setup () {
     const searchInput = ref('')
     const getEvents = usePromise(search => search.value.length)
@@ -26,6 +27,6 @@ export default {
 
     return { searchInput, getEvents }
   }
-}
+})
 </script>
 
